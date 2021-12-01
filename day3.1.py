@@ -201,3 +201,77 @@
 # List = [1,4,7,5,8,2,1,3,4,5,9,7,6,1,10]
 # a = Counter(List)
 # print(a)
+
+# l=[1]
+# n=int(input("请输入层数"))
+# for i in range(n):
+#     print(l)
+#     l.append(0)
+#     l=[l[k]+l[k-1] for k in range (0,i+2)]
+
+
+#
+#
+# l=[1]                         l[1,0]
+# n=int(input('输入层数'))
+# for i in range(n):
+#     print(l)
+#     l.append(0)
+#     l=[l[K]+l[K-1] for K in range (0,i+2)]
+
+# dict = {"k1":"v1","k2":"v2","k3":"v3"}
+# for i in dict:
+#     print(i)
+# for i in dict:
+#     print(dict[i])
+
+# dict.update({"k4":"v4"})
+# print(dict)
+
+# Friuts = {
+# 	    '苹果':12.3,  # 水果和单价
+# 	    '草莓':4.5,
+#         '香蕉':6.3,
+#         '葡萄':5.8,
+#         '橘子':6.4,
+#         '樱桃':15.8
+# }
+# info={
+#     '小明':{
+#         'fruits':{'苹果':4,'草莓':13,'香蕉':10},
+#         'money':0
+#     },
+#     '小刚':{
+#         'fruits':{'葡萄':19, '橘子':12, '樱桃':30},
+#         'money':0
+#     }
+# }
+# for i in info['小明']['fruits']:
+#     money=Friuts[i]*info['小明']['fruits'][i]
+#     info['小明']['money']+=money
+# print("小明的水果价格为",info['小明']['money'])
+# for j in info['小刚']['fruits']:
+#     money2=Friuts[j]*info['小刚']['fruits'][j]
+#     info['小刚']['money']+=money2
+# print("小刚的水果价格为",info['小刚']['money'])
+
+# num=[21,56,10,21,56,10]
+# def all_nums(num):
+#       a={}
+#       for i in set(num):
+#             a[i]=num.count(i)
+#       return a
+# print(all_nums(num))
+
+# names = [
+#     ["刘备","56","男","106","IBM", 500 ,"50"],
+#     ["大乔","19","女","230","微软", 501 ,"60"],
+#     ["小乔", "19", "女", "210", "Oracle", 600, "60"],
+#     ["张飞", "45", "男", "230", "Tencent", 700 , "10"]
+# ]
+# a1={'刘备':{'年龄':56,'性别':'男','编号':106,'任职公司':'IBM','薪资':500,'部门编号':50}}
+# a2={'大乔':{'年龄':19,'性别':'女','编号':230,'任职公司':'微软','薪资':501,'部门编号':60}}
+# a3={'小乔':{'年龄':19,'性别':'女','编号':210,'任职公司':'Oracle','薪资':600,'部门编号':60}}
+# a4={'张飞':{'年龄':45,'性别':'男','编号':230,'任职公司':'Tencent','薪资':700,'部门编号':10}}
+
+
